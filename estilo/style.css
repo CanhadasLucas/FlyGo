@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parisienne&family=Passion+One:wght@400;700;900&family=Sriracha&family=Tangerine:wght@400;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -87,20 +89,21 @@ nav a:hover {
 }
 
 .hero-content {
-    margin-left: 60vw;
+    margin-left: 55vw;
     background-color: #dad8d849;
     padding: 1%;
-    width: 30%;
+    width: 38%;
     border-radius: 10px;
 }
 
 .hero-content > h1 {
     color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .hero-content > h1#inesq {
     color: var(--cor2);
-    font-family: cursive;
+    font-family: "Parisienne";
+    font-size: 7em;
 }
