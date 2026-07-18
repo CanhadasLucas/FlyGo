@@ -106,4 +106,5 @@ nav a:hover {
     color: var(--cor2);
     font-family: "Parisienne";
     font-size: 7em;
+    padding-left: 15%;
 }
