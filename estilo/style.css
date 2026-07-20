@@ -25,8 +25,15 @@ header {
     padding: 0 40px;
 }
 
+#logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 nav {
     text-align: center;
+    margin-left: -15%;
 }
 
 nav a {
@@ -56,7 +63,6 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -137,4 +143,24 @@ nav a:hover {
     display: flex;
     margin-left: 80%;
     margin-top: -12%;
+}
+
+#infobox {
+    background-color: var(--cor4);
+    width: 80vw;
+    margin-left: 20%;
+}
+
+.hinfobox {
+    display: inline-block;
+    color: #0B3C5D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.pinfobox {
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
 }
